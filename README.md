@@ -1,7 +1,9 @@
 # Quiz Game — school project (2024)
 
 **Status:** archived — this was built for a local school event in 2024.
+
 **Maintenance:** I will **not** return to this project; no further changes will be made.
+
 **Stability:** experimental — contains known bugs and rough edges.
 
 ## High-level summary
