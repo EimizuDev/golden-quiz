@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+    <!-- General -->
+    <div id="blur" style="display: none"></div>
+    <div id="team-answering"><div id="team-answering-fill"></div></div>
+    <div id="leaderboard">
+      <div class="leaderboard-title"><div class="leaderboard-title-fill">Leaderboard</div></div>
+      <div id="leaderboard-teams">
+
+      </div>
+    </div>
+    <div id="teams-cont">
+
+    </div>
+    <!-- First Game -->
+    <div id="quiz-1">
+      <div class="quiz-fill-1">
+        <div id="question-1"></div>
+        <div class="match-timer-cont-1"><div class="match-timer-1"><div id="match-timer-fill-1">15</div></div></div>
+        <div class="answer-cont-1">
+          <div id="answer-1-1"><div class="answer-fill-1"></div></div>
+          <div id="answer-2-1"><div class="answer-fill-1"></div></div>
+          <div id="answer-3-1"><div class="answer-fill-1"></div></div>
+          <div id="answer-4-1"><div class="answer-fill-1"></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="category-cont-1">
+      <div id="category-names-cont-1">
+
+      </div>
+      <div id="category-variants-cont-1">
+
+      </div>
+    </div>
+    <!-- Second Game -->
+    <div id="points-align" style="display: none">
+      <div id="points-cont">
+
+      </div>
+      <div id="points-counter-cont">
+        <h3 id="points-counter" style="display: none">0</h3>
+      </div>
+    </div>
+    <div id="category-border">
+      <div id="category-fill">
+
+      </div>
+    </div>
+    <div id="quiz-2" style="display: none">
+      <div class="question-2"><div id="question-fill-2"></div></div>
+      <div id="btn-cont" style="display: none">
+        <div id="answer-1-2"><div class="answer-fill-2"></div></div>
+        <div id="answer-2-2"><div class="answer-fill-2"></div></div>
+      </div>
+      <div id="timer-variant-cont" style="display: none">
+        <div class="match-timer-2"><div id="match-timer-fill-2">60</div></div>
+        <div class="variant"><div id="variant-fill"></div></div>
+      </div>
+    </div>
+    <!-- Third Game -->
+    <div id="quiz-3" style="display: none">
+      <div class="game-rule"><div class="game-rule-fill">Words after changing one letter</div></div>
+      <div class="answers-cont-3">
+        <div class="answer-cont-3">
+          <div class="answer-3" onclick="answer13()"><div class="answer-fill-3"><p id="answer-clue-1"></p></div></div>
+        </div>
+        <div class="answer-cont-3">
+          <div class="answer-3" onclick="answer23()"><div class="answer-fill-3"><p id="answer-clue-2"></p></div></div>
+        </div>
+        <div class="answer-cont-3">
+          <div class="answer-3" onclick="answer33()"><div class="answer-fill-3"><p id="answer-clue-3"></p></div></div>
+        </div>
+        <div class="answer-cont-last">
+          <div class="answer-3" onclick="answer43()"><div class="answer-fill-3"><p id="answer-clue-4"></p></div></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

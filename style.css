@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+html {
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+input {
+  font-size: 15px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+#teams {
+  margin-bottom: 20px;
+}
+
+#quiz-selection {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}

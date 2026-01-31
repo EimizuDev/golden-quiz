@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="center">
+      <div id="teams">
+
+      </div>
+      <form onsubmit="relocateTeamsList(); return false;">
+        <input type="text" id="teamInput" placeholder="Team's name">
+        <br>
+        <button type="button" onclick="addTeam()">Add</button>
+        <button type="submit">Play</button>
+      </form>
+    </div>
+    <input type="file" id="quiz-selection" accept=".csv">
+    <script src="script.js"></script>
+  </body>
+</html>
