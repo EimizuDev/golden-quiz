@@ -88,4 +88,4 @@ Final leaderboard is shown with total points.
 > [!NOTE]
 > This was developed quickly for a live event. It is preserved here for historical value only.
 
-#### This project is licensed under the Unlicense license. See the `LICENSE` file for details.
+#### This project is licensed under the MIT license. See the `LICENSE` file for details.
