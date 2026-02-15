@@ -1,4 +1,4 @@
-# Quiz Game — school project (2024)
+# Quiz Game (2024)
 
 **Status:** archived — this was built in 2024.
 
